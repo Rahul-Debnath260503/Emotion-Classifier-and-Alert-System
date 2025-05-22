@@ -12,7 +12,7 @@ import joblib
 import numpy as np
 
 # Load model and tools
-model_data = joblib.load("/content/emotion_classifier.pkl")
+model_data = joblib.load("emotion_classifier.pkl")
 model = model_data['model']
 vectorizer = model_data['vectorizer']
 label_encoder = model_data['label_encoder']
